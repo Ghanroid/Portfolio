@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghanshyam Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,800;1,400;1,600;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/34d1bc18d4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/Radhekrishna.png" alt="" class="header-image">
+                <div class="spacesathi"></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- close icon -->
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <!-- menu icon -->
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Flutter Developer</p>
+                <h1>Hi, I'm <span>Ghanshyam</span> <br> Murbadkar From Virar</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------about--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/bgremoved_about.png" alt="boy reading book"> -->
+                    <img src="images/gh_siut.jpeg" alt="boy reading book">
+                    
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus quibusdam iusto
+                        provident explicabo architecto delectus quod facilis illo iure! Ut nulla accusamus harum dicta
+                        quasi, natus consequuntur laborum quidem.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                    </div>
+
+
+                    <div class="tab-contents active-contents" id="skills">
+                        <ul>
+                            <li>
+                                <span>FLutter <br> </span>Desinging Application interfaces
+                            </li>
+                            <li>
+                                <span>Java <br> </span>Desinging Application interfaces
+                            </li>
+                            <li>
+                                <span>Firebase <br> </span>Desinging Application interfaces
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>BSC-IT <br> </span>Annasaheb Vartak College<br> Passed with <span
+                                    class="marks">9.7 CGPA</span>
+                            </li>
+                            <li>
+                                <span>12th <br> </span>Annasaheb Vartak College<br> Passed with <span
+                                    class="marks">95%</span>
+                            </li>
+                            <li>
+                                <span>10th <br> </span>National English High Shcool<br> Passed with <span
+                                    class="marks">86.60%</span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Fresher <br> </span>Looking for Job
+                            </li>
+                            <!-- <li>
+                                <span>Fresher <br> </span>Desinging Application interfaces
+                            </li>
+                            <li>
+                                <span>Fresher <br> </span>Desinging Application interfaces
+                            </li> -->
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------portfolio ------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/quiz.jpeg" alt="project1_image">
+                    <div class="layer">
+                        <h3>Quiz App</h3>
+                        <p>Built a robust quiz application to facilitate
+                            interactive learning and assessment, leveraging the
+                            power of Flutter for seamless cross-platform
+                            development and Firebase for real-time database
+                            management.Delivered a fully functional quiz app
+                            that showcases expertise in mobile development
+                            with Flutter and backend integration with Firebase,
+                            enhancing both user engagement and educational
+                            utility.
+                        </p>
+                        <a href="https://github.com/Ghanroid/QuizApp"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/recipe.jpeg" alt="project1_image">
+                    <div class="layer">
+                        <h3>Recipe App</h3>
+                        <p>The objective of a recipe recommendation app built
+                            with Flutter, Dart, and Firebase is to provide users
+                            with personalized recipe suggestions.The app aims
+                            to offer a seamless user experience by leveraging
+                            Flutter's cross-platform capabilities, Dart's efficient
+                            programming language, and Firebase's real-time
+                            database and authentication features.</p>
+                        <a href="https://github.com/Ghanroid/recipeApp"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/chatscreen.jpeg" alt="project1_image">
+                    <div class="layer">
+                        <h3>Chat App</h3>
+                        <p>Chat App is a messaging application built with Flutter and Firebase, offering real-time
+                            communication and a user-friendly interface. Key features include secure user
+                            authentication, real-time message updates, media sharing.</p>
+                        <a href="https://github.com/Ghanroid/flutterChat"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+    <!-- -------------contact  ------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>codelearnerbot@gmail.com</p><br>
+                    <p><i class="fa-solid fa-phone"></i>9325696826</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ghanshyam-murbadkar-3814b8243"><i
+                                class="fa-brands fa-linkedin"></i> </a>
+
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/_ghanshyam_murbadkar_/"> <i
+                                class="fa-brands fa-square-instagram"></i> </a>
+                        <a href="https://github.com/ghanroid/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Resume_GhanshyamGovindMurbadkar.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6 " placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ⓒ Ghanshyam. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-contents");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-contents");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+    <script>
+        // in script url google sheet madhun  url bhetel ti 
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyTOOWyB-xav0KwueMxd9qyQFWi5V6Q-JaLp-DnoHadMThMqWWG_S96U7qt56zza5dWQQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Your response has be send successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+<!-- https://docs.google.com/spreadsheets/d/19bXYYeiWxaj7vRLchhMheX8BKg7leOoKVjA6DFY2Z7c/edit?gid=0#gid=0             contactForm -->
+
+</html>
