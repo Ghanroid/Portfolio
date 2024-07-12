@@ -349,12 +349,9 @@ nav .fa-solid{
 
 /* ------------------------------------------csss for small screen --------- */
 @media only screen and (max-width:600px){
-    /* #header{
-         background-image: url(images/img_getstarted.png);
-        object-fit: cover;
-        width: 100%;
-        height: 100%; 
-    } */
+    #header{
+         background-image: none;
+    }
 .header-text{
     margin-top: 100%;
     font-size: 16px;
@@ -363,6 +360,19 @@ nav .fa-solid{
     font-size: 30px;
 
 }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 270px;
+}
+.header-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    
+}
+
 /* .container .fa-bars {
     display: flex;
     font-size: 20px;
@@ -377,7 +387,7 @@ nav .fa-solid{
     font-size: 20px;
 } */
  nav .fa-solid{
-    display: block;
+    display: inline-block;
     font-size: 25px;
  }
  nav ul{
